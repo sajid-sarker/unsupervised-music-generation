@@ -4,12 +4,13 @@ A project for the Spring 2026 semester of CSE425 at BRACU
 
 Goal: Build a deep unsupervised model capable of generating novel music pieces across multiple genres such as Classical, Jazz, Rock, Pop, and Electronic.
 
-Note: The .py files in this repo are all placeholders. The models were coded and trained in the `notebooks` directory using Google Colab.
+> [!NOTE]
+> The `.py` files in this repo are all placeholders. The models were coded and trained in Google Colab and can be found in the `notebooks` folder.
 
 ### Contributions
 
-- `Sajid Hassan Sarker`: Coded and trained the AE and VAE model. Did the data preproccessing and analysis.
-- `Aysha Siddiqa Tithi and Minjum Ara Sumath `: Coded and trained the Transformer model. Did separate EDA, preprocessing, and analysis.
+- `Sajid Hassan Sarker`: Coded and trained the AE and VAE model. Did the EDA, data preproccessing and analysis.
+- `Aysha Siddiqa Tithi and Minjum Ara Sumath `: Coded and trained the Transformer models and RLHF tasks. Did separate EDA, preprocessing, and analysis.
 
 ### Datasets
 
@@ -30,4 +31,5 @@ All plots are saved in [Generated Plots](https://drive.google.com/drive/folders/
 ## Report
 
 Written using LaTeX in the IEEE conference format.
+
 Compiled version: `/report/CSE425_Project_Report.pdf`
