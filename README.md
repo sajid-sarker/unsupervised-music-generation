@@ -4,30 +4,30 @@ A project for the Spring 2026 semester of CSE425 at BRACU
 
 Goal: Build a deep unsupervised model capable of generating novel music pieces across multiple genres such as Classical, Jazz, Rock, Pop, and Electronic.
 
-## Quick Start
+Note: The .py files in this repo are all placeholders. The models were coded and trained in the `notebooks` directory using Google Colab.
 
-1. Install dependencies:
+### Contributions
 
-```bash
-pip install -r requirements.txt
-```
+- `Sajid Hassan Sarker`: Coded and trained the AE and VAE model. Did the data preproccessing and analysis.
+- `Aysha Siddiqa Tithi and Minjum Ara Sumath `: Coded and trained the Transformer model. Did separate EDA, preprocessing, and analysis.
 
-2. Put MIDI files under `data/raw_midi/`.
+### Datasets
 
-3. Train models:
+| Dataset             | Genre                   | Link                                    |
+| ------------------- | ----------------------- | --------------------------------------- |
+| MAESTRO v3          | Classical Piano         | magenta.tensorflow.org/datasets/maestro |
+| Lakh MIDI Dataset   | Rock / Pop / Electronic | colinraffel.com/projects/lmd            |
+| Groove MIDI Dataset | Jazz / Drums            | magenta.tensorflow.org/datasets/groove  |
 
-```bash
-python src/training/train_ae.py
-python src/training/train_vae.py
-python src/training/train_transformer.py
-```
+### Generated MIDI files
 
-4. Generate MIDI samples:
+All generated samples are saved in `outputs/generated_midis/`:
 
-```bash
-python src/generation/generate_music.py --model ae --num-samples 5
-python src/generation/generate_music.py --model vae --num-samples 8
-python src/generation/generate_music.py --model transformer --num-samples 10 --seq-len 256
-```
+### Training Plots
 
-Outputs are saved in `outputs/checkpoints/`, `outputs/plots/`, and `outputs/generated_midis/`.
+All plots are saved in `outputs/plots/`:
+
+## Report
+
+Written using LaTeX in the IEEE conference format.
+Compiled version: `/report/CSE425_Project_Report.pdf`
