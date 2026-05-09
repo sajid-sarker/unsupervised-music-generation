@@ -21,11 +21,11 @@ Note: The .py files in this repo are all placeholders. The models were coded and
 
 ### Generated MIDI files
 
-All generated samples are saved in `outputs/generated_midis/`:
+All generated samples can be found at [Generated MIDI](https://drive.google.com/drive/folders/1AVI1v5wfCfC7tpiZZZVvwKnnfINDZtqD?usp=sharing):
 
 ### Training Plots
 
-All plots are saved in `outputs/plots/`:
+All plots are saved in [Generated Plots](https://drive.google.com/drive/folders/1A5yr_I-gN71eR4pEtKuNzou9r4gN3N4s?usp=sharing):
 
 ## Report
 
